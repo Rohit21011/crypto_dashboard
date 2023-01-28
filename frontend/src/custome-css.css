@@ -1,0 +1,214 @@
+*{
+  font-family: "Verdana";
+}
+body {
+  background-color: #000000;
+  color: #606468;
+  font-family: "Verdana";
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  font-family: Poppins;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.loginLayout {
+  border: 1px solid;
+  width: 500px;
+  height: 500px;
+
+  padding: 40px 50px 40px 50px;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  border-radius: 5px;
+  box-shadow: rgba(74, 74, 206, 0.25) 17px 50px 100px -20px,
+    rgba(110, 89, 89, 0.3) 0px 30px 60px -30px,
+    rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+}
+.input-style {
+  margin-top: 20px;
+  margin-left: 40px;
+  display: flex;
+}
+button {
+  margin-left: 10%;
+  margin-top: 15px !important;
+  width: 83%;
+  padding: 13px;
+  background-color: #ea4c88;
+  color: #eee;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.input-style input {
+  padding: 16px;
+  background-color: #434a52;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  width: 280px;
+  color: white;
+}
+.input-style input:focus {
+  outline: none;
+}
+.input-style i {
+  font-size: 20px;
+  /* text-align: center; */
+  padding: 17px 15px 16px 15px;
+  background-color: #3b4148;
+  border-radius: 2px 0px 0px 2px;
+}
+
+.input-style p {
+  margin: auto;
+}
+.input-style a {
+  color: #f8f9fa;
+}
+.setHeader {
+  position: absolute;
+  left: 48px;
+  top: 20px;
+  
+  display: flex;
+}
+.setHeader h2 {
+  position: relative;
+  width: 180px;
+  height: 36px;
+
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 52px;
+
+  color: #ffffff;
+}
+.search {
+  position: relative;
+  left: 100px;
+}
+.search input {
+  width: 310px;
+  padding: 10px;
+  background: #121416;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  border: none;
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+}
+.search input:focus {
+  outline: none;
+  color: #ffffff;
+}
+
+.search i {
+  position: absolute;
+  right: 18px;
+  top: 11px;
+  color: #ffffff;
+  font-size: 22px;
+}
+.search ::placeholder {
+  color: #ffffff;
+}
+.notification {
+  position: relative;
+  left: 220px;
+  margin: auto 30px auto 30px;
+  font-size: 22px;
+  color: #ffffff;
+}
+.profile {
+  position: relative;
+  left: 280px;
+  margin: auto 20px auto 20px;
+}
+.profile select {
+  margin-left: 10px;
+
+  background-color: rgb(0, 0, 0);
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+.leftnav {
+  position: relative;
+  display: block;
+  width: 243px;
+  top: 100px;
+  left: 0;
+  padding: 10px;
+}
+.leftnav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+}
+
+.leftnav ul li a{
+  margin-top:50px;
+  font-size: 15px;
+  display: flex;
+  font-family: "Verdana";
+  font-weight: 300;
+  transition: transform ease 300ms;
+}
+
+.leftnav ul li a:hover {
+  color: #cdff65 !important;
+  display: flex;
+  transform: translate(12px);
+}
+
+.card-position{
+  display: flex;
+  position: absolute;
+  top: 100px;
+  left: 330px;
+}
+.card-layout{
+  position: relative;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  margin-right: 30px;
+  width: 225px;
+  height: 125px;
+  background: #121416;
+  border: none;
+  box-shadow: 0px 0px 50px rgb(0 0 0 / 25%);
+  border-radius: 15px;
+}
+.card-layout img{
+ 
+    position: relative;
+    top: 22px;
+    left: 25px;
+}
+.card-layout p{
+  position: relative;
+  top: 15px;
+  left: 18px;
+}
